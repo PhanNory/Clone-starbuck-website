@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+    <!-----Customs Css--------->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+          <div class="navbar-container">
+              <div class="navbar-brand">
+                  <a href="index.html">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
+                          alt="Starbucks">
+                  </a>
+              </div>
+              <ul class="navbar-nav-left">
+                  <li><a href="index.html">Menu</a></li>
+                  <li><a href="reward.html">Rewards</a></li>
+                  <li><a href="card.html">Gift Cards</a></li>
+              </ul>
+
+              <ul class="navbar-nav-right">
+                  <li>
+                      <a href="#">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <span>Find a store</span>
+                      </a>
+                  </li>
+                  <li><button class="btn btn-dark-outline">Sign in</button></li>
+                  <li><button class="btn btn-dark">Join now</button></li>
+              </ul>
+
+              <!-- Hamburger Menu -->
+              <button class="hamburger" id="menu-btn">
+                  <span class="hamburger-top"></span>
+                  <span class="hamburger-middle"></span>
+                  <span class="hamburger-bottom"></span>
+              </button>
+          </div>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu hidden" id="menu">
+          <ul>
+              <li><a href="index.html">Menu</a></li>
+              <li><a href="reward.html">Rewards</a></li>
+              <li><a href="card.html">Gift Cards</a></li>
+          </ul>
+
+          <div class="mobile-menu-bottom">
+              <button class="btn btn-dark-outline">Sign in</button>
+              <button class="btn btn-dark">Join now</button>
+              <div>
+                  <a href="#">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <span>Find a store</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </header>
+    <div class="rewards">
+      <header class="head-reward">
+          <p class="reward-text">Starbucks® Rewards</p>
+      </header>
+      <div class="reward-grid">
+      <div class="reward-texts">
+          <h2>It’s a great day for <br>
+              free coffee</h2>
+          <p>
+              Sign up and start enjoying the perks of Starbucks® Rewards.
+          </p>
+          <a href="#" class="btn btn-light">Join now</a>
+      </div>
+      <div class="rewrd-images">
+          <img src="images/reward-images.avif" alt="">
+      </div>
+  </div>
+  </div>
+  <section class="getstart">
+      <div class="section-title">
+          <h2>Getting started is easy</h2>
+          <p>arn Stars and get rewarded in a few easy steps.</p>
+      </div>
+      <div class="get-start-container">
+
+          <article class="get-item">
+              <i class="fa-solid fa-1"></i>
+              <p>Create an account</p>
+              <h4>To get started, <a href="#">join now</a>
+                  You can also Join in the app to get access to the full
+                  range of Starbucks® Rewards benefits.
+              </h4>
+          </article>
+          <article class="get-item">
+              <i class="fa-solid fa-2"></i>
+              <p>Create an account</p>
+              <h4>To get started, <a href="#">join now</a>
+                  You can also Join in the app to get access to the full
+                  range of Starbucks® Rewards benefits.
+              </h4>
+          </article>
+          <article class="get-item">
+              <i class="fa-solid fa-3"></i>
+              <p>Create an account</p>
+              <h4>To get started, <a href="#">join now</a>
+                  You can also Join in the app to get access to the full
+                  range of Starbucks® Rewards benefits.
+              </h4>
+          </article>
+      </div>
+
+  </section>
+
+    <section class="favourit">
+    <h2 class="section-title">Get your favorites for free</h2>
+    <div class="tabs-list">
+        <button class="tabs-btn active" data-filter="one">25 <i class="fa-solid fa-star"></i></button>
+        <button class="tabs-btn" data-filter=".two">100 <i class="fa-solid fa-star"></i></button>
+        <button class="tabs-btn" data-filter=".three">200 <i class="fa-solid fa-star"></i></button>
+        <button class="tabs-btn" data-filter=".fourth">300 <i class="fa-solid fa-star"></i></button>
+        <button class="tabs-btn" data-filter=".five">400 <i class="fa-solid fa-star"></i></button>
+    </div>
+    <div class="mix-active">
+        <div class="tabs-container mix one" data-order="1">
+            <div class="star-images">
+                <img src="images/star-images2.png" alt="">
+            </div>
+            <div class="star-text">
+                <h2>Select Starbucks® <br> merchandise</h2>
+                <p>Take home a signature cup, drink tumbler or your
+                    choice of coffee merch up to $20.
+                </p>
+            </div>
+        </div>
+        <div class="tabs-container mix two" data-order="2">
+            <div class="star-images">
+                <img src="images/star-images1.png" alt="">
+            </div>
+            <div class="star-text">
+                <h2>Select Starbucks® <br> merchandise</h2>
+                <p>Take home a signature cup, drink tumbler or your
+                    choice of coffee merch up to $20.
+                </p>
+            </div>
+        </div>
+        <div class="tabs-container mix three" data-order="3">
+            <div class="star-images">
+                <img src="images/star-images3.png" alt="">
+            </div>
+            <div class="star-text">
+                <h2>Select Starbucks® <br> merchandise</h2>
+                <p>Take home a signature cup, drink tumbler or your
+                    choice of coffee merch up to $20.
+                </p>
+            </div>
+        </div>
+        <div class="tabs-container mix fourth" data-order="4">
+            <div class="star-images">
+                <img src="images/star-images4.png" alt="">
+            </div>
+            <div class="star-text">
+                <h2>Select Starbucks® <br> merchandise</h2>
+                <p>Take home a signature cup, drink tumbler or your
+                    choice of coffee merch up to $20.
+                </p>
+            </div>
+        </div>
+        <div class="tabs-container mix five" data-order="5">
+            <div class="star-images">
+                <img src="images/star-images5.png" alt="">
+            </div>
+            <div class="star-text">
+                <h2>Handcrafted drink (Cold<br>
+                    Brew, lattes and more) or hot <br>
+                    merchandise snack and more</h2>
+                <p>
+                    Turn good mornings great with a delicious handcrafted drink of your choice, breakfast sandwich or
+                    oatmeal on us.
+                </p>
+            </div>
+        </div>
+</section>
+<section class="extra">
+    <div class="section-title">
+        <h2>Extra</h2>
+        <p>
+            Joining Starbucks® Rewards means unlocking access to
+            benefits like quick and easy ordering,
+            tasty Rewards and—yes, free coffee.
+        </p>
+    </div>
+    <div class="extra-container">
+        <article class="extra-item">
+            <img src="images/1-fun-freebies.jpg" alt="">
+            <div class="extra-text">
+            <b>Fun freebies</b>
+            <p>Not only can you earn free food, drinks and more,
+                look forward to a birthday treat on us.</p>
+            <a href="#" class="btn btn-bottom">Learn more</a>
+            </div>
+        </article>
+        <article class="extra-item">
+            <img src="images/2-order-and-pay-ahead.jpg" alt="">
+            <div class="extra-text">
+            <b>Order & pay ahead</b>
+            <p>Not only can you earn free food, drinks and more,
+                look forward to a birthday treat on us.</p>
+            <a href="#" class="btn btn-bottom">Learn more</a>
+          </div>
+        </article>
+        <article class="extra-item">
+            <img src="images/3-get-to-free-faster.jpg" alt="">
+            <div class="extra-text">
+            <b>Get to free faster</b>
+            <p>Not only can you earn free food, drinks and more,
+                look forward to a birthday treat on us.</p>
+            <a href="#" class="btn btn-bottom">Learn more</a>
+           </div>
+        </article>
+    </div>
+</section>
+   <!-----Section Case ----->
+  <section class="case">
+    <div class="section-title">
+        <h2>Cash or card, you earn Stars</h2>
+        <p>
+            No matter how you pay, you can earn Stars with
+            your morning coffee. Those Stars add up to
+            (really delicious) Rewards.
+        </p>
+    </div>
+    <div class="case-container">
+        <div class="left-case">
+            <b>1★Star per dollar</b>
+            <p>Pay as you go</p>
+        </div>
+        <div class="center-case">
+            <img src="images/case-image.png" alt="">
+            <div class="case-info">
+                <b>Scan and pay separately</b>
+                <p>Scan and pay separately
+                Use cash or credit/debit card at the register</p>
+            </div>
+        </div>
+        <div class="right-case">
+            <img src="images/case-imageright.png" alt="">
+            <div class="case-info">
+                <b>Save payment in the app</b>
+                <p>Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order
+                    ahead or scan
+                    and pay at the register in one step.</p>
+            </div>
+        </div>
+    </div>
+
+    <!----Case Section 2----->
+    <div class="case-container">
+        <div class="left-case">
+            <b>2★Star per dollar</b>
+            <p>Pay as you go</p>
+        </div>
+        <div class="center-case">
+            <img src="images/2A.png" alt="">
+            <div class="case-info">
+                <b>Scan and pay separately</b>
+                <p>Scan and pay separately
+                    Use cash or credit/debit card at the register</p>
+            </div>
+        </div>
+        <div class="right-case">
+            <img src="images/2B.png" alt="">
+            <div class="case-info">
+                <b>Save payment in the app</b>
+                <p>Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order
+                    ahead or scan
+                    and pay at the register in one step.</p>
+            </div>
+        </div>
+    </div>
+
+  </section>
+ <!-----Section Comimg ----->
+ <section class="comimg">
+     <div class="section-title">
+         <h2>Keep the Rewards Coming</h2>
+         <p>The Rewards don't stop at your morning coffee. Join Starbucks®
+             Rewards and unlock perks from
+             our partners, all while earning more Stars.</p>
+     </div>
+     <div class="coming-container">
+         <article class="coming-item">
+             <img src="images/delta-skymiles.png" alt="">
+             <div class="coming-info">
+                 <p><a href="#" class="btn btn-bottom">Link your Delta SkyMiles®</a>
+                     and Starbucks® Rewards accounts to earn miles on Starbucks
+                     Card reloads of $25 or more,
+                     plus Double Stars on travel days.1
+                 </p>
+             </div>
+         </article>
+         <article class="coming-item">
+             <img src="images/bank-of-america.png" alt="">
+             <div class="coming-info">
+                 <p><a href="#" class="btn btn-bottom">Link your Delta SkyMiles®</a>
+                     and Starbucks® Rewards accounts to earn miles on Starbucks
+                     Card reloads of $25 or more,
+                     plus Double Stars on travel days.1
+                 </p>
+             </div>
+         </article>
+         <article class="coming-item">
+             <img src="images/marriott-logo.png" alt="">
+             <div class="coming-info">
+                 <p><a href="#" class="btn btn-bottom">Link your Delta SkyMiles®</a>
+                     and Starbucks® Rewards accounts to earn miles on Starbucks
+                     Card reloads of $25 or more,
+                     plus Double Stars on travel days.1
+                 </p>
+             </div>
+         </article>
+
+     </div>
+     <a href="#" class="join-btn">Join Starbucks® Rewards</a>
+ </section>
+
+    <!-----Footer Section---->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social">
+                <a href="https://spotify.com">
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://pinterest.com">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+                <a href="https://instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p>© 2023 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/mixitup.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
